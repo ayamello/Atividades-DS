@@ -1,0 +1,244 @@
+*{
+    font-family: "Relaway", sans-serif;
+}
+
+header{
+    background-color: whitesmoke;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+    .h1title{
+        font-size: 30pt;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .ptitle{
+        font-family: Georgia, serif;
+        font-size: 16px;
+        text-align: center;
+    }
+    span{
+        background-color: rgb(8, 8, 8);
+        color: white;
+        padding: 3px 7px;
+    }
+
+.divfundao{
+    background-color: whitesmoke;
+    display: flex;
+    height: 1200px;
+    flex-direction: row;
+}
+
+    .div1{
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+    }
+        section{
+            background-color: whitesmoke;
+            flex: 1;
+            margin-top: 10px;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; 
+        }
+            a:hover{
+                background-color: lightgray;
+                text-decoration: none;
+                display: inline-block;  
+            }
+            .abord{
+                border: solid gray;
+                border-width: 1px;
+                text-align: center;
+                padding: 14px 25px;
+                width: 150px;
+                margin-left: 17px;
+            }
+            .pcoment{
+                text-align: right;
+            }
+
+        article{
+            background-color: whitesmoke;
+            flex: 1;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;;
+        }
+
+    .div2{
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+        .div21{
+            background-color: whitesmoke;
+            flex: 2;
+            margin: 20px;
+            margin-left: 10px;
+            flex-direction: column;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+        }
+        .div22{
+            background-color: whitesmoke; 
+            display: flex;
+            flex: 2;
+            flex-direction: column;
+            margin: 20px;
+            margin-left: 10px;
+        }
+            .pdivposts{
+                background-color: rgba(238, 235, 235, 0.952);
+                text-align: left;
+                flex: 1;
+                padding-left: 15px;
+                padding-top: 19px;
+                font-size: 16pt;
+            }
+            .lorem{
+                display: flex;
+                flex-direction: row;
+                flex: 1.8;        
+            }
+            .ipsum{
+                display: flex;
+                flex-direction: row;
+                flex: 1.8;
+            }
+            .dorum{
+                display: flex;
+                flex-direction: row;
+                flex: 1.8;
+            }
+            .mingsum{
+                display: flex;
+                flex-direction: row;
+                flex: 1.8;        
+            }
+            .imgsp{
+                flex: 1;
+                padding-right: 1px;
+                align-self: center;
+                padding-left: 15px;
+            }
+            .textp{
+                flex: 5;
+                text-align: left;
+            }
+            .textplinha{
+                font-size: 14px;
+            }
+            .textptitle{
+                font-size: 20px;
+                margin-bottom: 2px;
+                padding-top: 17px;
+            }
+
+        .div23{
+            background-color: whitesmoke;
+            display: flex;
+            flex: 1;
+            margin: 20px;
+            margin-left: 10px;
+            margin-bottom: 100px;
+            flex-direction: column;
+        }
+            .title{
+                background-color: rgba(238, 235, 235, 0.952);
+                flex: 1;
+                text-align: left;
+                padding-top: 20px;
+                padding-left: 15px;
+                font-size: 16pt;
+            }
+            .links{
+                flex: 3;
+                padding-left: 15px;
+                font-size: 10pt;
+            }
+            .spancinza{
+                background-color: rgb(233, 229, 229);
+                color: black;
+                padding: 3px 7px;
+            }
+            .spanpreto{
+                background-color: rgb(8, 8, 8);
+                color: white;
+                padding: 3px 10px;
+                font-size: 14px;
+            }
+
+
+.imgtot{
+    width: 100%;
+    height: 270px;
+}
+
+.imgsprin{
+    width: 100%;
+    height: 260px;
+}
+
+p{
+    padding-left: 15px;
+    text-align: justify;
+    padding-right: 30px;
+    margin-top: 2px;
+}
+
+.pEu{
+    padding-bottom: 1px;
+}
+
+.pdata{
+    margin-top: 1px;
+}
+
+h2{
+    padding-left: 15px;
+    text-align: justify;
+}
+
+.divpds{
+    flex: 1;
+}
+
+footer{
+    background-color: rgb(88, 87, 88);
+    height: 170px;
+}
+    .pfooter{
+        font-size: 15px;
+        color: white;
+    }
+    .button1{
+        font-size: 16px;
+        background-color: dimgray;
+        padding: 12px 24px;
+        color: rgba(173, 169, 169, 0.808);
+        border: none;
+        margin-top: 35px;
+        margin-bottom: 25px;
+    }
+    .button2{
+        font-size: 16px;
+        background-color: black;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+    }
+
+.bloco{
+    -webkit-box-shadow: 9px 7px 5px rgba(50,50,50,0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(50,50,50,0.77);
+    box-shadow: 9px 7px 5px rgba(50,50,50,0.77);;
+}    

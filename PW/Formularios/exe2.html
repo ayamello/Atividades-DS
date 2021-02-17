@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    <font face="Verdana">
+
+        <div align="center" style="background-color: black">
+            <font color="white"><h1>Formulário de Registro</h1></font>
+        </div>
+        
+        <fieldset style="width: 60%;">
+            <legend>Dados Pessoais</legend><br>
+            <font size="2">
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome"><br><br>
+            <label for="idade">Endereço: </label>
+            <input type="text" id="ende" name="ende"><br><br>
+            <label for="estado">Estado: </label>
+            <select name="estado" id="estado">
+                <option value="ba">Bahia</option>
+                <option value="pi">Piauí</option>
+                <option value="ma">Maranhão</option>
+                <option value="rn">Rio Grande do Norte</option>
+                <option value="al">Alagoas</option>
+                <option value="se">Sergipe</option>
+                <option value="pe">Pernambuco</option>
+                <option value="pr">Paraíba</option>
+                <option value="ce">Ceará</option>
+            </select><br><br>
+            <label for="cidade">Cidade: </label>
+            <input type="text" id="cidade"><br><br>
+        </fieldset>
+        </font>
+
+        <fieldset style="width: 60%;">
+            <legend>Dados Profissionais</legend><br>
+            <font size="2">
+            <label for="nat">Natureza do cargo</label><br>
+            <input type="radio" id="ger" name="nat">
+            <label for="ger">Gerência</label>
+            <input type="radio" id="fin" name="nat">
+            <label for="fin">Financeiro</label>
+            <input type="radio" id="rec" name="nat">
+            <label for="rec">Recepção</label>
+            <input type="radio" id="adm" name="nat">
+            <label for="adm">Adminisração</label><br><br>
+            <label for="area">Área de interesse</label><br>
+            <input type="checkbox" name="comp" id="comp">
+            <label for="comp">Computação</label>
+            <input type="checkbox" name="bio" id="bio">
+            <label for="bio">Biologia</label>
+            <input type="checkbox" name="hist" id="hist">
+            <label for="hist">História</label>
+            <input type="checkbox" name="eng" id="eng">
+            <label for="eng">Engenharia</label><br><br>
+            <label for="minicur">Mini-currículo: </label>
+            <textarea name="minicur" id="minicur" cols="75" rows="15"></textarea>    
+        </fieldset>
+        </font>
+    </font>
+</body>
+</html>

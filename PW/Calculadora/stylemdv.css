@@ -1,0 +1,73 @@
+.divfundao{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 212, 223);
+    width: 600px;
+    height: 1000px;
+    align-items: center;
+    margin-left: 360px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+    .div1{
+        background-color: rgb(235, 85, 110);
+        flex: 1;
+        margin: 30px;
+        padding-left: 90px;
+        padding-right: 90px;
+        box-shadow: 2px 2px 10px white;
+    }
+
+    .div2{
+        background-color: rgb(235, 85, 110);
+        flex: 1;
+        margin: 30px;
+        padding-left: 88px;
+        padding-right: 88px;
+        box-shadow: 2px 2px 10px white;
+    }
+    
+    .div3{
+        background-color: rgb(235, 85, 110);
+        flex: 1;
+        margin: 30px;
+        padding-left: 80px;
+        padding-right: 80px;
+        box-shadow: 2px 2px 10px white;
+    }
+    
+    .div4{
+        background-color: rgb(235, 85, 110);
+        flex: 1;
+        margin: 30px;
+        padding-left: 91.6px;
+        padding-right: 91.6px;
+        box-shadow: 2px 2px 10px white;
+    }
+
+h1{
+    color: white;
+    background-color: rgb(235, 85, 110);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+.divresult{
+    text-align: center;
+    padding-top: 30px;
+    font-size: large;
+    color: white;
+}
+
+input{
+    align-items: center;
+}
+
+.caixainput{
+    width: 50px;
+}
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form 1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <font face="Verdana">
+        <div align="center" style="background-color: black">
+            <font color="white"><h1>Formulário de Registro</h1></font>
+        </div>
+       
+        <form action="/js/action">
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome"><br><br>
+            
+            <label for="idade">Idade: </label>
+            <input type="text" id="idade" name="idade"><br><br>
+            
+            <label for="cidade">Cidade: </label>
+            <select name="cidade" id="cidade">
+                <option value="salvador">Salvador</option>
+                <option value="feiradesantana">Feira de Santana</option>
+                <option value="laurodefreitas">Lauro de Freitas</option>
+            </select><br><br>
+           
+            <label for="sexo">Sexo: </label>
+            <input type="radio" id="feminino" name="sexo" value="feminino">
+            <label for="feminino">Feminino</label>
+            <input type="radio" id="masculino" name="sexo" value="masculino">
+            <label for="feminino">Masculino</label><br><br>
+            
+            <label for="interesse1">Interesse: </label>                
+            <input type="checkbox" id="interesse1" name="interesse1" value="front">
+            <label for="interesse1">Front-end</label>
+            <input type="checkbox" id="interesse2" name="interesse2" value="back">
+            <label for="interesse2">Back-end</label><br><br>
+           
+            <label for="email">E-mail: </label>                
+            <input type="text" name="email" id="email"><br><br>
+            
+            <label for="senha">Senha: </label>
+            <input type="password" name="senha" id="senha"><br><br>
+
+            <input type="submit" name="submit" id="submit">    
+        </form>
+
+        <br><br><br><br>
+
+        <form action="/js/action">
+            <fieldset style="width: 60%;">
+                <legend>Dados Pessoais</legend>
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome"><br><br>
+                <label for="idade">Idade: </label>
+                <input type="text" id="idade" name="idade"><br><br>
+            </fieldset>
+            <fieldset style="width: 60%;">
+                <legend>Dados Profissionais</legend>
+                <label for="escolaridade">Escolaridade: </label>
+                    <select name="escolaridade" id="escolaridade">
+                        <option value="efund">Ensino Fundamental</option>
+                        <option value="emed">Ensino Médio</option>
+                        <option value="grad">Superior</option>
+                        <option value="tec">Técnico</option>
+                    </select><br><br>
+
+                <label for="areat">Área de Atuação: </label>
+                    <input type="radio" id="back" name="progr" value="backend">
+                    <label for="back">Programador Back-end</label>
+                    <input type="radio" id="front" name="progr" value="frotend">
+                    <label for="front">Programador Front-end</label>
+                    <input type="radio" id="fullst" name="fullst" value="fullstack">
+                    <label for="fullst">Programador Fullstack</label>
+            </fieldset>
+        </form>
+
+
+
+    </font>
+</body>
+</html>
